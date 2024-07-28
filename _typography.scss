@@ -1,19 +1,24 @@
 html, body {font-family: Poppins}
 
+//font details
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
+//nav style details
 nav {color: antiquewhite;
  justify-content: center;
 align-items: center;
 size: 5em;}
 
-  
+//Make the h1 bigger
+.h1{size: 10em;}
+
+//make the nav links show black
 a{color:black}
 
-
+//makes the whole section have capital letters.
 section{text-transform: capitalize;}
 

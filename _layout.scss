@@ -13,7 +13,7 @@ display:flex;}
 
 section {display:flex;
     flex-wrap: wrap;
-    height:60vh;
+    height: 70vh;
     width:20%;
 background-color:rgb(145, 210, 131);
 text-align: center;
@@ -27,7 +27,7 @@ padding: 25px 40px;}
 
 aside{display:flex;
 flex-wrap: wrap;
-height:60vh;
+height:70vh;
 width:20%;
 background-color:rgb(145, 210, 131);
 padding: 20px 40px;
@@ -39,3 +39,9 @@ footer{display:flex;
 width:100%;
 height:150px;
 background-color:rgb(184, 169, 160);}
+
+//responsive layout for phones
+@media screen and (max-width:1200px){.section, main, aside, footer{
+    width:100%;
+    height:100%}}
+

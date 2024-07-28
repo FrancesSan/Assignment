@@ -1,10 +1,13 @@
+//company logo
 h1::before {content:"\2606";
     size: 5em;
     padding-right:4px;
     color:rgb(17, 15, 15);}
 
+//make image flexible for browser size
 image {display: flex;}
 
+//make button stand out as a Call to Action on the page.
 button{background-color:rgb(55, 83, 240);
 color:white;
 font-size: 4em;
@@ -13,9 +16,11 @@ padding:20px;
 font-weight: bold;
 }
 
+//Make it obvious when people hover over the button.
 button:hover{background-color: bisque;
 color:black}
 
+//footer style
 footer{font-size: 2em;
     justify-content: end;
     padding: 2em;}
