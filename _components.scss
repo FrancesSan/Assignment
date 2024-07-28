@@ -1,12 +1,24 @@
+h1::before {content:"\2606";
+    size: 5em;
+    padding-right:4px;
+    color:rgb(17, 15, 15);}
+
+    
+
 image {display: flex;
 justify-content: center;
 align-items: center;}
 
-button{background-color: darkgreen;
+button{background-color:rgb(55, 83, 240);
 color:white;
 font-size: 2em;
 height:min-content;
+padding:4px;
 }
 
-button:hover{background-color: yellow;
+button:hover{background-color: bisque;
 color:black}
+
+footer{font-size: 2em;
+    justify-content: end;
+    padding: 2em;}
