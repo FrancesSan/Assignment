@@ -17,23 +17,20 @@ section {display:flex;
     width:20%;
 background-color:rgb(145, 210, 131);
 text-align: center;
-padding: 70px 40px;
-margin-bottom: 0px;}
+padding: 20px 40px;}
 
 main {display: flex;
     flex-wrap: wrap;
 height:100%;
 width:60%;
-padding: 25px 40px;
-margin-bottom: 0px;}
+padding: 25px 40px;}
 
 aside{display:flex;
 flex-wrap: wrap;
 height:60vh;
 width:20%;
 background-color:rgb(145, 210, 131);
-padding: 70px 40px;
-margin-bottom: 0px;
+padding: 20px 40px;
 }
 
 footer{display:flex;

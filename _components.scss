@@ -3,17 +3,14 @@ h1::before {content:"\2606";
     padding-right:4px;
     color:rgb(17, 15, 15);}
 
-    
-
-image {display: flex;
-justify-content: center;
-align-items: center;}
+image {display: flex;}
 
 button{background-color:rgb(55, 83, 240);
 color:white;
-font-size: 2em;
-height:min-content;
-padding:4px;
+font-size: 4em;
+height:fit-content;
+padding:20px;
+font-weight: bold;
 }
 
 button:hover{background-color: bisque;
