@@ -9,16 +9,14 @@ html, body {font-family: Poppins}
 
 //nav style details
 nav {color: antiquewhite;
- justify-content: center;
-align-items: center;
-size: 5em;}
+  word-spacing: 5px;}
 
 //Make the h1 bigger
-.h1{size: 10em;}
+h1{size: 4em;}
 
 //make the nav links show black
 a{color:black}
 
-//makes the whole section have capital letters.
+//makes the whole section start with capital letters.
 section{text-transform: capitalize;}
 
