@@ -1,9 +1,12 @@
+// set the margin as zero and box sizing as border box.
 *{margin: 0;
     box-sizing: border-box;}    
-  
+
+// set up three column layout to be flexible when resizing screen or using other devices 
 .three-columns{display:flex;
 flex-wrap: wrap;}
 
+//header style
 header {color: antiquewhite;
     height:150px;
 background-color:rgb(184, 169, 160);
@@ -12,28 +15,30 @@ padding-top: 1%;
 padding-bottom: 3%;
 display:flex;}
 
-section {display:flex;
-    flex-wrap: wrap;
+//section style details
+section {display:grid;
     height: 70vh;
     width:20%;
 background-color:rgb(145, 210, 131);
 text-align: center;
 padding: 20px 40px;}
 
-main {display: flex;
-    flex-wrap: wrap;
+//main style detals
+main {display: grid;
 height:100%;
 width:60%;
-padding: 25px 40px;}
+padding: 25px 40px;
+resize: both;}
 
-aside{display:flex;
-flex-wrap: wrap;
+//aside style details
+aside{display:grid;
 height:70vh;
 width:20%;
 background-color:rgb(145, 210, 131);
 padding: 20px 40px;
 }
 
+//footer style details
 footer{display:flex;
     justify-content: flex-end;
     align-content:flex-start;
@@ -42,7 +47,7 @@ width:100%;
 height:100px;
 background-color:rgb(184, 169, 160);}
 
-//responsive layout for phones
+//responsive layout for phones or tablets
 @media screen and (max-width:1200px){.section, main, aside, footer{
     width:100%;
     height:100%}}
